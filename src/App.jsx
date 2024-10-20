@@ -45,7 +45,7 @@ function App() {
       </div>
       <Canvas ref={macRef} camera={{fov:20, position: width<900?[0, -10, 250]:[0, -10, 120]}}>
         <Environment files={['hdri_lights.hdr']}/>
-        <ScrollControls pages={3} damping={0.1}>
+        <ScrollControls pages={1} damping={0.1}>
           <MacContainer />
         </ScrollControls>
       </Canvas>
