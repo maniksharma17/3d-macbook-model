@@ -2,6 +2,7 @@ import { useGLTF, useScroll, useTexture } from "@react-three/drei"
 import { useFrame } from "@react-three/fiber"
 import * as THREE from 'three'
 
+
 const MacContainer = () => {
   let model = useGLTF('model/mac.glb')
   let meshes = {}
